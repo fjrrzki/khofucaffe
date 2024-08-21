@@ -1,0 +1,205 @@
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #050060;
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.navbar-atas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list ul li {
+  list-style-type: none;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.list ul li a:hover {
+  color: #7718eb !important;
+}
+
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(4, 3, 54, 0.418)
+    ),
+    url(https://temannongkrong.co.id/wp-content/uploads/2022/09/Konsep-Coffee-Shop-Teman-Nongkrong_page-0001-1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+
+.kelas_khofu_caffe h1 {
+  font-family: "REM", sans-serif;
+  color: #fff;
+}
+
+.garis_bawah {
+  border: 1px #111 solid;
+  width: 160px;
+  margin-bottom: 50px;
+}
+/* minuman */
+.menu_minuman h3 {
+  font-style: normal;
+}
+.gambar-minuman {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.menu_minuman {
+  width: 250px;
+  -webkit-box-shadow: 0 0 20.5px 7.5px #dddddd;
+  -moz-box-shadow: 0 0 20.5px 7.5px #dddddd;
+  box-shadow: 0 0 20.5px 7.5px #dddddd;
+}
+/* makanan */
+.menu_makanan h3 {
+  font-style: normal;
+}
+.gambar-makanan {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.menu_makanan {
+  width: 250px;
+  -webkit-box-shadow: 0 0 20.5px 7.5px #dddddd;
+  -moz-box-shadow: 0 0 20.5px 7.5px #dddddd;
+  box-shadow: 0 0 20.5px 7.5px #dddddd;
+}
+/* eskrim */
+.menu_eskrim h3 {
+  font-style: normal;
+}
+.gambar-eskrim {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.menu_eskrim {
+  width: 250px;
+  -webkit-box-shadow: 0 0 20.5px 7.5px #dddddd;
+  -moz-box-shadow: 0 0 20.5px 7.5px #dddddd;
+  box-shadow: 0 0 20.5px 7.5px #dddddd;
+}
+/* About */
+.isi_about {
+  display: flex;
+  justify-content: center;
+}
+.detail_kami {
+  max-width: 500px;
+  padding: 15px;
+}
+.detail_kami p {
+  text-align: justify;
+}
+
+.gambar_about {
+  width: 30%;
+}
+
+/* contact */
+.contact {
+  background-color: #050060;
+}
+
+.contact h1 {
+  color: #fff;
+}
+.isi_contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bagian_kiri {
+  width: 40%;
+  -webkit-box-shadow: 0 0 20.5px 7.5px #566bca;
+  -moz-box-shadow: 0 0 20.5px 7.5px #574edb;
+  box-shadow: 0 0 20.5px 7.5px #4f49a1;
+}
+
+.bagian_kiri iframe {
+  border-radius: 10px;
+}
+.bagian_kanan {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bagian_kanan i {
+  color: #fff;
+  font-size: 120px;
+}
+.list-bawah {
+  max-width: 120px;
+}
+.bagian_kanan p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
